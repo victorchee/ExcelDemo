@@ -12,6 +12,7 @@
 		1F6CA01B1EF371E10041C01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CA0191EF371E10041C01E /* Main.storyboard */; };
 		1F6CA01D1EF371E10041C01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CA01C1EF371E10041C01E /* Assets.xcassets */; };
 		1F6CA0201EF371E10041C01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6CA01E1EF371E10041C01E /* LaunchScreen.storyboard */; };
+		1F6CA0281EF376580041C01E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6CA0271EF376580041C01E /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		1F6CA01C1EF371E10041C01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F6CA01F1EF371E10041C01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F6CA0211EF371E10041C01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6CA0271EF376580041C01E /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				1F6CA0151EF371E10041C01E /* AppDelegate.swift */,
 				1F6CA0171EF371E10041C01E /* ViewController.swift */,
+				1F6CA0271EF376580041C01E /* CollectionViewCell.swift */,
 				1F6CA0191EF371E10041C01E /* Main.storyboard */,
 				1F6CA01C1EF371E10041C01E /* Assets.xcassets */,
 				1F6CA01E1EF371E10041C01E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				1F6CA0181EF371E10041C01E /* ViewController.swift in Sources */,
 				1F6CA0161EF371E10041C01E /* AppDelegate.swift in Sources */,
+				1F6CA0281EF376580041C01E /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
