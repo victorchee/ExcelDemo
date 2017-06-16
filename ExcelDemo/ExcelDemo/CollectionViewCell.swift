@@ -41,4 +41,22 @@ extension CollectionViewCell: UITableViewDelegate {
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
         didScroll?(scrollView.contentOffset)
     }
+    
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 30
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0.000001
+    }
+    
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let view = UIView()
+        view.backgroundColor = UIColor.lightGray
+        view.frame = CGRect(x: 0, y: 0, width: tableView.frame.width, height: 30)
+        let label = UILabel(frame: view.bounds.insetBy(dx: 15, dy: 0))
+        label.text = String(section)
+        view.addSubview(label)
+        return view
+    }
 }
